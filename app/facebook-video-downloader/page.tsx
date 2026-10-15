@@ -15,13 +15,13 @@ export async function generateMetadata(): Promise<Metadata> {
     description: tool.description,
     keywords: tool.keywords,
     openGraph: {
-      title: `${tool.name} | ClipDown`,
+      title: `${tool.name} | VidFetch`,
       description: tool.description,
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
-      title: `${tool.name} | ClipDown`,
+      title: `${tool.name} | VidFetch`,
       description: tool.description,
     },
   };

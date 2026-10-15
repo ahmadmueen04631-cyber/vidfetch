@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "Download supported public Instagram Reels with a simple URL. Paste your Reel link and access available download options — no account needed.",
   alternates: { canonical: `/${SLUG}` },
   openGraph: {
-    title: "Instagram Reels Downloader – ClipDown",
+    title: "Instagram Reels Downloader – VidFetch",
     description: "Download supported public Instagram Reels with a simple URL.",
     url: `/${SLUG}`,
   },

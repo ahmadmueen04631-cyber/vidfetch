@@ -139,7 +139,7 @@ export function ToolPageLayout({ tool, children }: ToolPageLayoutProps) {
                 step: "2",
                 title: "Analyze",
                 description:
-                  "Click Download. ClipDown will validate the URL and fetch available video information and download options.",
+                  "Click Download. VidFetch will validate the URL and fetch available video information and download options.",
               },
               {
                 step: "3",

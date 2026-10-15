@@ -12,14 +12,14 @@ import { FAQ } from "@/components/marketing/FAQ";
 import { HomeCTA } from "@/components/marketing/HomeCTA";
 
 export const metadata: Metadata = {
-  title: "ClipDown – Download Supported Public Videos Online",
+  title: "VidFetch – Download Supported Public Videos Online",
   description:
     "Download supported public videos from Instagram, TikTok, and YouTube. Paste a URL, detect the platform, and access available download options. No account required.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "ClipDown – Download Supported Public Videos Online",
+    title: "VidFetch – Download Supported Public Videos Online",
     description:
       "A simple, fast tool for downloading supported public videos from Instagram, TikTok, and YouTube.",
     url: "/",

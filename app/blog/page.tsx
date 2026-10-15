@@ -7,12 +7,12 @@ import Link from "next/link";
 import { breadcrumbSchema, jsonLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Video Download Guides & Tips – ClipDown Blog",
+  title: "Video Download Guides & Tips – VidFetch Blog",
   description:
-    "Learn how to download Instagram Reels, TikTok videos, YouTube Shorts, and more. Step-by-step guides for using ClipDown's video downloader tools.",
+    "Learn how to download Instagram Reels, TikTok videos, YouTube Shorts, and more. Step-by-step guides for using VidFetch's video downloader tools.",
   alternates: { canonical: "/blog" },
   openGraph: {
-    title: "Video Download Guides & Tips – ClipDown Blog",
+    title: "Video Download Guides & Tips – VidFetch Blog",
     description:
       "Step-by-step guides for downloading supported public videos from Instagram, TikTok, and YouTube.",
     url: "/blog",
@@ -24,7 +24,7 @@ const POSTS = [
     slug: "how-to-download-instagram-reels",
     title: "How to Download Instagram Reels",
     description:
-      "A step-by-step guide to downloading supported public Instagram Reels using ClipDown. Learn which URLs are supported and what to expect.",
+      "A step-by-step guide to downloading supported public Instagram Reels using VidFetch. Learn which URLs are supported and what to expect.",
     date: "2026-10-01",
     readTime: "3 min read",
     platform: "Instagram",
@@ -44,7 +44,7 @@ const POSTS = [
     slug: "how-to-download-youtube-shorts",
     title: "How to Download YouTube Shorts",
     description:
-      "Download supported YouTube Shorts quickly using ClipDown. This guide covers supported URL formats and available quality options.",
+      "Download supported YouTube Shorts quickly using VidFetch. This guide covers supported URL formats and available quality options.",
     date: "2026-10-01",
     readTime: "3 min read",
     platform: "YouTube",
@@ -54,7 +54,7 @@ const POSTS = [
     slug: "video-download-guide",
     title: "The Complete Video Download Guide",
     description:
-      "Everything you need to know about downloading supported public videos from Instagram, TikTok, and YouTube using ClipDown.",
+      "Everything you need to know about downloading supported public videos from Instagram, TikTok, and YouTube using VidFetch.",
     date: "2026-10-01",
     readTime: "5 min read",
     platform: "All Platforms",

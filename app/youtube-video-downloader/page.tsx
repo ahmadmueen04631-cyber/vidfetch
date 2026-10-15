@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "Download supported public YouTube videos in available quality options. Paste a YouTube URL and access 1080p, 720p, and more where available.",
   alternates: { canonical: `/${SLUG}` },
   openGraph: {
-    title: "YouTube Video Downloader – ClipDown",
+    title: "YouTube Video Downloader – VidFetch",
     description: "Download supported public YouTube videos in available quality options.",
     url: `/${SLUG}`,
   },

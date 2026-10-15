@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "Download supported public TikTok videos using a standard or short video URL. No account required. Access available download options instantly.",
   alternates: { canonical: `/${SLUG}` },
   openGraph: {
-    title: "TikTok Video Downloader – ClipDown",
+    title: "TikTok Video Downloader – VidFetch",
     description: "Download supported public TikTok videos using a simple URL.",
     url: `/${SLUG}`,
   },

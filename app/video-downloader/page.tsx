@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "Download supported public videos from Instagram, TikTok, and YouTube with one simple tool. Paste any supported URL to access available download options.",
   alternates: { canonical: `/${SLUG}` },
   openGraph: {
-    title: "Video Downloader – ClipDown",
+    title: "Video Downloader – VidFetch",
     description:
       "Download supported public videos from Instagram, TikTok, and YouTube.",
     url: `/${SLUG}`,

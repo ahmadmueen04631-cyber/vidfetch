@@ -57,10 +57,10 @@ def get_ydl_base_opts() -> Dict[str, Any]:
         "no_warnings": True,
         "no_color": True,
         "ffmpeg_location": FFMPEG_BIN,
-        # android_vr is the most reliable non-SABR client — works from server IPs when cookies provided
+        # Support multiple player clients so yt-dlp can fall back if one client is restricted
         "extractor_args": {
             "youtube": {
-                "player_client": ["android_vr"]
+                "player_client": ["android_vr", "android", "web", "mweb"]
             }
         },
         "http_headers": {

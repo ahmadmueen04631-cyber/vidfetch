@@ -15,7 +15,7 @@ const inter = Inter({
 // ── Metadata ───────────────────────────────────────────────
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://vidfetch.me"
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.vidfetch.me"
   ),
   title: {
     default: "VidFetch – Download Supported Public Videos Online",

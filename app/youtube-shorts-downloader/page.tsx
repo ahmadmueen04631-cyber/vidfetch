@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "Download supported public YouTube Shorts with a simple URL paste. No account required. Access available formats and qualities instantly.",
   alternates: { canonical: `/${SLUG}` },
   openGraph: {
-    title: "YouTube Shorts Downloader – ClipDown",
+    title: "YouTube Shorts Downloader – VidFetch",
     description: "Download supported public YouTube Shorts with a simple URL.",
     url: `/${SLUG}`,
   },

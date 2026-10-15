@@ -6,7 +6,7 @@
 import type { MetadataRoute } from "next";
 
 const BASE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://vidfetch.me";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.vidfetch.me";
 
 // Tool pages
 const TOOL_PAGES = [
