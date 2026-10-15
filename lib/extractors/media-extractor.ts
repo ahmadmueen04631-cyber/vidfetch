@@ -38,7 +38,7 @@ export function isDirectMediaStreamUrl(rawUrl: string): boolean {
       return true;
     }
 
-    // Media streaming CDNs
+    // Media streaming CDNs & Render stream workers
     const host = u.hostname.toLowerCase();
     if (
       host.includes("googlevideo.com") ||
@@ -49,7 +49,9 @@ export function isDirectMediaStreamUrl(rawUrl: string): boolean {
       host.includes("fbcdn.net") ||
       host.includes("redd.it") ||
       host.includes("pinimg.com") ||
-      pathname.includes("/videoplayback")
+      host.includes("onrender.com") ||
+      pathname.includes("/videoplayback") ||
+      pathname.includes("/stream")
     ) {
       return true;
     }
